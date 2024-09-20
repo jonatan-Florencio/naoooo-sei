@@ -1,0 +1,176 @@
+
+header{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 10px;
+}
+
+nav ul li {
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+
+body {
+    background-color: rgb(202, 196, 189);
+}
+
+#sobre {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#autores {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#eventos {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+
+
+}
+
+table {
+    width: 100% ;
+    height: 20vh ;
+    border-collapse: collapse ;
+    
+    table-layout: fixed ;
+    border: 2px solid black ;
+}
+
+
+thead th:nth-child(1) {
+    width: 30% ;
+}
+
+
+thead th:nth-child(2) {
+    width: 60% ;
+}
+
+
+thead th:nth-child(3) {
+    width: 10% ;
+}
+
+
+thead {
+    color: black;
+    background-color: rgb(240, 240, 240) ;
+}
+
+
+th, td {
+    padding: 5px ;
+    border: 1px solid var black ;
+}
+
+
+tbody td {  /* todo TD dentro do TBODY */
+    text-align: center ;
+}
+
+#galeria {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+img {
+    border-radius: 5px;
+
+}
+
+
+#video {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+#contato {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 120px;
+}
+
+form div {
+    display: flex ;
+    flex-direction: column ;
+    margin: 0px 30px ;
+}
+
+
+form label {
+    display: block;
+    margin-left: 10px;
+    color: black;
+}
+
+
+.input {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    height: 48px;
+}
+
+
+textarea {
+    margin: 5px ;
+    border: 2px solid black ;
+    border-radius: 10px ;
+    padding: 5px ;
+}
+
+
+.div-botao {
+    display: flex ;
+    align-items: center ;
+}
+
+
+.botao {
+    border: 2px solid rgb(221, 220, 220) ;
+    background-color: black ;
+    margin-top: 10px ;
+    border-radius: 10px ;
+    padding: 10px ;
+    font-weight: bold ;
+    color: white ;
+    width: 20% ;
+}
+
+
+.botao:hover {
+    background-color: rgb(117, 116, 116);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 10px;
+    position: fixed ;
+    width: 100%;
+    bottom: 0%;
+}
